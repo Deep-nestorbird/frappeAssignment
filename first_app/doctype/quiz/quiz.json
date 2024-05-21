@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-15 22:59:39.676887",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kxhe",
+  "question",
+  "table",
+  "correct_answer"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kxhe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Text",
+   "label": "Question"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "option"
+  },
+  {
+   "fieldname": "correct_answer",
+   "fieldtype": "Data",
+   "label": "Correct Answer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-15 23:06:29.483708",
+ "modified_by": "Administrator",
+ "module": "First App",
+ "name": "Quiz",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
